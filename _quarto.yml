@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - images/profile.jpg
+    - .nojekyll
+
+website:
+  title: "Zhuochao Huang"
+  search: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    lang: en
+    anchor-sections: false
+    page-layout: full
+
+editor: visual

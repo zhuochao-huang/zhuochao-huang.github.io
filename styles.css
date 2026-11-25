@@ -1,0 +1,105 @@
+/* Minimal Jolla academic profile. Shared by the Quarto project and static edition. */
+:root {
+  color-scheme: light;
+  --profile-ink: #252a30;
+  --profile-link: #265b85;
+  --profile-muted: #65717e;
+}
+
+html { min-height: 100%; }
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--profile-ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+}
+
+.quarto-about-jolla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(100%, 738px);
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 72px 24px 66px !important;
+}
+
+.quarto-about-jolla .about-image {
+  display: block;
+  width: 195px !important;
+  height: 195px !important;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center 44%;
+  border-radius: 50% !important;
+  margin: 0 auto 24px !important;
+}
+
+.quarto-about-jolla #title-block-header {
+  margin: 0 0 30px !important;
+  padding: 0;
+  text-align: center;
+}
+
+.quarto-about-jolla h1.title {
+  margin: 0 !important;
+  font-size: clamp(32px, 5vw, 39px);
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+  font-weight: 600;
+  color: #20252b;
+}
+
+.quarto-about-jolla .about-contents {
+  width: 100%;
+  max-width: 690px;
+  margin: 0 auto;
+  padding: 0 !important;
+  text-align: left;
+}
+
+.quarto-about-jolla .about-contents p {
+  margin: 0 0 19px;
+  font-size: 17px;
+  line-height: 1.72;
+}
+
+.quarto-about-jolla a {
+  color: var(--profile-link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.quarto-about-jolla a:hover { color: #153c60; }
+.quarto-about-jolla a:focus-visible {
+  outline: 2px solid var(--profile-link);
+  outline-offset: 4px;
+}
+
+.profile-contact {
+  border-top: 1px solid #e1e5e9;
+  margin-top: 30px;
+  padding-top: 18px;
+  text-align: center;
+  font-size: 15px;
+}
+.quarto-about-jolla .profile-contact p { margin: 0; font-size: 15px; }
+.quarto-about-jolla .profile-contact a { color: var(--profile-muted); }
+
+/* Quarto provides its own outer grid; keep the Jolla panel centered. */
+#quarto-content { padding-top: 0 !important; }
+
+@media (max-width: 600px) {
+  .quarto-about-jolla { padding: 44px 24px 48px !important; }
+  .quarto-about-jolla .about-image {
+    width: 156px !important;
+    height: 156px !important;
+    margin-bottom: 21px !important;
+  }
+  .quarto-about-jolla #title-block-header { margin-bottom: 24px !important; }
+  .quarto-about-jolla .about-contents p { font-size: 16px; line-height: 1.72; }
+  .quarto-about-jolla .profile-contact p { font-size: 15px; }
+}

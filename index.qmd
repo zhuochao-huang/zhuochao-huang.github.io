@@ -1,0 +1,22 @@
+---
+title: "Zhuochao Huang"
+description: "Zhuochao Huang, postdoctoral fellow in biostatistics at MD Anderson Cancer Center."
+navbar: false
+sidebar: false
+about:
+  template: jolla
+  image: images/profile.jpg
+  image-alt: "Portrait of Zhuochao Huang"
+  image-width: 195px
+  image-shape: round
+---
+
+I am a postdoctoral fellow in the Department of Biostatistics at The University of Texas MD Anderson Cancer Center, working with [Muxuan Liang](https://www.muxuan.me/) and [Ruitao Lin](https://faculty.mdanderson.org/profiles/ruitao_lin.html). I received my Ph.D. in Statistics from the University of Florida in 2026, under the supervision of [Joseph Antonelli](https://jantonelli111.github.io/).
+
+My research interests include causal inference, semiparametric methods, Bayesian methods, survival analysis, clinical trials, and real-world evidence.
+
+For my research and publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=JN4GeTgAAAAJ).
+
+::: {.profile-contact}
+[Email](mailto:ZHuang8@mdanderson.org)
+:::
