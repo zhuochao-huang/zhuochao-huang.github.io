@@ -1,1 +1,1 @@
-# Zhuochao Huang — personal academic website
+Zhuochao Huang — personal academic website
